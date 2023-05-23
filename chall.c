@@ -8,12 +8,12 @@ int main()
         char *username = "";
         char *password = "";
         char *role = "";
-        char *display_name = "";
+        char *display_name = "Guest";
         printf("Enter Your Credential to Login!\n");
         while(1)
         {
             printf("\n1: Insert Credential\n");
-            printf("2: Display Name\n");
+            printf("2: Configure Display Name\n");
             printf("3: Reset Credential\n");
             printf("4: Login\n");
             printf("5: Exit\n");
